@@ -1,42 +1,85 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="UTF-8">
 
     <title>Meu portifólio web</title>
 
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,300&display=swap"
+        rel="stylesheet">
+    <style>
+        #inicio{
+            font-family: 'Montserrat', sans-serif;
+            color: #274C77;
+            font-size:30px ;
+        }
+        #minhaFoto{
+            border-radius: 25%;
+        }
+        body {
+            font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        background-color: #A3CEF1;
+        }
+        #paragrafo-1{
+            color:#E7ECEF;
+            font-size: 18px;
+        }
+        #paragrafo-2{
+            color:#8B8C89;
+        }
+        h3{
+            color: #274C77;
+            font-size: 20px;
+        
+        }
+        #habilidades-destaque{
+            color: #E7ECEF;
+            font-size: 18px;
+        }
+        #outras-habilidades{
+            color: #8B8C89;
+        }
+
+    </style>
 </head>
+
 <body>
-    <H1 id="inicio">Gabriel Dota Fujtia</H1>
-    <p id="minhaFoto"><img src="./images/fotoPortifolio.png" alt="Foto improvisada" width="400px"></p>
+    <H1 id="inicio">Gabriel Dota Fujita</H1>
+    <img id="minhaFoto" src="./images/fotoPortifolio.png" alt="Foto improvisada" width="400px">
 
 
     <h3 id="sobreMim">Sobre Mim</h3>
 
-    <p>
+    <p id="paragrafo-1">
         Tenho 19 anos, moro em Piedade, interior de São Paulo, mas nasci no <strong>Japão</strong>.
     </p>
-    <p><em>Sou estudante na <a href="https://www.betrybe.com/" target="_blank">Trybe</a></em>. No meu tempo livre (que não é muito) gosto de <a href="https://steamcommunity.com/id/GabrielDta/" target="_blank">jogar</a>.
-    <br> Apaixonado pelo meu pet(Pingu) <br> <img src="/images/pingu.jpeg" alt="Foto do meu cachorro" width="250px"></p>
+    <p id="paragrafo-2"><em>Sou estudante na <a href="https://www.betrybe.com/" target="_blank">Trybe</a></em>. No meu tempo livre (que
+        não é muito) gosto de <a href="https://steamcommunity.com/id/GabrielDta/" target="_blank">jogar</a>.
+        <br> Apaixonado pelo meu pet(Pingu) <br> <img src="/images/pingu.jpeg" alt="Foto do meu cachorro" width="250px">
+    </p>
 
     <h3 id="habilidades">Habilidades que me orgulho</h3>
 
-    <ul> 
+    <ul id="habilidades-destaque">
         <li>Persistência</li>
         <li>Facilidade em aprendizagem</li>
     </ul>
 
     <h3>Outras Habilidades </h3>
 
-    <ul>
+    <ul id="outras-habilidades">
         <li>Paciência</li>
         <li>Git</li>
         <li>GitHub</li>
     </ul>
-    
+
     <h3>Pontos de interesse</h3>
-        <a href="#sobreMim">Sobre mim</a> <br>
-        <a href="#habilidades">Minhas habilidades</a> <br>
-        <a href="#inicio">Começo da pagina</a> <br>
+    <a href="#sobreMim">Sobre mim</a> <br>
+    <a href="#habilidades">Minhas habilidades</a> <br>
+    <a href="#inicio">Começo da pagina</a> <br>
 </body>
+
 </html>
