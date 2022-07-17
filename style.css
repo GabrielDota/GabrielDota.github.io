@@ -1,0 +1,31 @@
+#inicio{
+    font-family: 'Montserrat', sans-serif;
+    color: #274C77;
+    font-size:30px ;
+}
+#minhaFoto{
+    border-radius: 25%;
+}
+body {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+background-color: #A3CEF1;
+}
+#paragrafo-1{
+    color:#E7ECEF;
+    font-size: 18px;
+}
+#paragrafo-2{
+    color:#8B8C89;
+}
+h3{
+    color: #274C77;
+    font-size: 20px;
+
+}
+#habilidades-destaque{
+    color: #E7ECEF;
+    font-size: 18px;
+}
+#outras-habilidades{
+    color: #8B8C89;
+}
