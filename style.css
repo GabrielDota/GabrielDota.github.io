@@ -1,71 +1,89 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-#inicio{
+
+#inicio {
     font-family: 'Montserrat', sans-serif;
     color: #274C77;
-    font-size:30px ;
+    font-size: 50px;
+    font-weight: 600;
 }
-#minhaFoto{
+
+#minhaFoto {
     width: 500px;
 }
+
 body {
-    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-background-color: #A3CEF1;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #A3CEF1;
 }
-#paragrafo-1{
-    color:#E7ECEF;
+
+#paragrafo-1 {
+    color: #E7ECEF;
     font-size: 18px;
 }
-#paragrafo-2{
-    color:#8B8C89;
+
+#paragrafo-2 {
+    color: #8B8C89;
 }
-h3{
+
+h3 {
     color: #274C77;
     font-size: 20px;
 
 }
-#habilidades-destaque{
+
+#habilidades-destaque {
     color: #E7ECEF;
     font-size: 18px;
 }
-#outras-habilidades{
+
+#outras-habilidades {
     color: #8B8C89;
 }
-.header{
+
+.header {
     height: 900px;
 }
-.foto-eu{
+
+.foto-eu {
     float: left;
     padding: 20px;
     background-color: rgb(170, 170, 170);
 }
-.pingu{
-padding-left: 20px;
+
+.pingu {
+    padding-left: 20px;
 
 }
-.sobre-mim{
+
+.sobre-mim {
     height: 300px;
     margin: 20px;
     padding: 50px;
 }
-.header h1{
+
+.header h1 {
     text-align: center;
+    padding: 20px;
 }
-.habilidades{
+
+.habilidades {
     padding: 20px;
     background-color: darkblue;
     height: 180px;
 }
-.habilidades h3{
+
+.habilidades h3 {
     color: red;
     padding: 5px;
 }
-.habilidades li:nth-of-type(2n+1){
-font-family: monospace;
+
+.habilidades li:nth-of-type(2n+1) {
+    font-family: monospace;
 }
 
-.ponto-interesse{
+.ponto-interesse {
     padding: 20px;
 }
