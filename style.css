@@ -29,3 +29,19 @@ h3{
 #outras-habilidades{
     color: #8B8C89;
 }
+.header{
+    height: 900px;
+}
+.foto-eu{
+    float: left;
+    margin: 15px;
+}
+.pingu{
+ position: relative;
+
+}
+.sobre-mim{
+    height: 300px;
+    margin: 20px;
+    padding: 50px;
+}
