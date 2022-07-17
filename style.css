@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 #inicio{
     font-family: 'Montserrat', sans-serif;
     color: #274C77;
@@ -48,4 +52,20 @@ padding-left: 20px;
 }
 .header h1{
     text-align: center;
+}
+.habilidades{
+    padding: 20px;
+    background-color: darkblue;
+    height: 180px;
+}
+.habilidades h3{
+    color: red;
+    padding: 5px;
+}
+.habilidades li:nth-of-type(2n+1){
+font-family: monospace;
+}
+
+.ponto-interesse{
+    padding: 20px;
 }
