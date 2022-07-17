@@ -4,7 +4,7 @@
     font-size:30px ;
 }
 #minhaFoto{
-    border-radius: 25%;
+    width: 500px;
 }
 body {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
@@ -34,7 +34,8 @@ h3{
 }
 .foto-eu{
     float: left;
-    margin: 15px;
+    padding: 20px;
+    background-color: rgb(170, 170, 170);
 }
 .pingu{
  position: relative;
