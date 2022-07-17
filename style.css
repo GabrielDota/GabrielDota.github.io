@@ -45,3 +45,6 @@ h3{
     margin: 20px;
     padding: 50px;
 }
+.header h1{
+    text-align: center;
+}
